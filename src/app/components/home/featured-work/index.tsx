@@ -28,15 +28,15 @@ const FeaturedWork = () => {
                 <div className="border-x border-primary/10">
                     <div className="flex flex-col max-w-3xl mx-auto py-10 px-4 sm:px-7">
                         <div className="flex flex-col xs:flex-row gap-5 items-center justify-between">
-                            <p className="text-sm tracking-[2px] text-primary uppercase font-medium">Featured work</p>
+                            <p className="text-sm tracking-[2px] text-primary uppercase font-medium">Ringkasan profil</p>
                             <Button asChild variant={"outline"} className="h-auto">
-                                <Link href={"/"} className="py-3 px-5">
-                                    Download Portfolio
+                                <Link href="/cv-alaik-annas-salam.pdf" target="_blank" className="py-3 px-5">
+                                    Download CV
                                 </Link>
                             </Button>
                         </div>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 border-t border-primary/10">
+                    {/* <div className="grid grid-cols-1 md:grid-cols-2 border-t border-primary/10">
                         {featureWork?.map((value: any, index: number) => {
                             const isRightCol = index % 2 === 1;
 
@@ -63,7 +63,7 @@ const FeaturedWork = () => {
                                 </div>
                             );
                         })}
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

@@ -2,60 +2,50 @@ import { NextResponse } from "next/server";
 
 const experienceData = [
     {
-        icon: "/images/icon/tailwind-icon.svg",
-        role: "Product Designer, Tailwind",
-        location: "Remote",
-        startYear: "2022",
-        endYear: "Present",
+        icon: "/images/icon/school-pen-icon.svg",
+        role: "Android Developer, Native (Kotlin)",
+        location: "SD Plus Sunan Ampel, Kediri",
+        startYear: "2024",
+        endYear: "2025",
         bulletPoints: [
-            "Led end-to-end redesign of dashboard UI, improving user retention by 23%",
-            "Collaborated with engineers and product managers to ship features faster",
-            "Designed components used in a system adopted by 4+ internal teams"
+            "Mengembangkan aplikasi mobile android (Buku Pantau) sebagai sistem rekapitulasi data kegiatan siswa",
+            "Bertugas sebagai UX designer, Programmer, dan Database Designer",
+            "Menggunakan bahasa pemrograman Kotlin Native, Android Studio, dan MySQL untuk membangun aplikasi",
         ]
     },
     {
-        icon: "/images/icon/asana-icon.svg",
-        role: "UI/UX Designer - Asana",
-        location: "New York, NY",
-        startYear: "2019",
-        endYear: "2022",
+        icon: "/images/icon/classic-column-icon.svg",
+        role: "Web Developer, PHP (Laravel)",
+        location: "PT. Lantur Jaya Group, Kediri",
+        startYear: "2024",
+        endYear: "2025",
         bulletPoints: [
-            "Created design systems for client projects across finance and healthcare",
-            "Conducted user testing and research to validate designs",
-            "Helped junior designers grow via mentorship"
+            "Mengembangkan website company profile untuk klien perusahaan kontruksi menggunakan PHP (Laravel) dan MySQL",
+            "Bertugas sebagai Backend Developer, dan Database Designer",
+            "Menggunakan bahasa pemrograman PHP (Laravel), dan database MySQL",
         ]
     },
 ]
 
 const educationData = [
     {
-        date: "Sep 2015 - May 2019",
-        title: "B.F.A. in Graphic Design",
-        subtitle: "Pratt Institute — Brooklyn, NY"
-    },
-    {
-        date: "Mar 2021 - Aug 2021",
-        title: "UX Design Certificate",
-        subtitle: "Google UX Design - Coursera"
-    },
-    {
-        date: "Jan 2020 - Mar 2020",
-        title: "Front-End Web Development Bootcamp",
-        subtitle: "General Assembly — New York, NY"
+        date: "Sep 2022 - Nov 2025",
+        title: "D3 Manajemen Informatika",
+        subtitle: "PSDKU POLINEMA KOTA KEDIRI — Kediri, Jawa Timur"
     }
 ];
 
 
 const projectOverview = {
     caseStudies: [
-        { name: "Wellnest", url: "#" },
-        { name: "ScoutHire", url: "#" },
+        { name: "Tugas Akhir", url: "#" },
+        { name: "Proyek Pengabdian", url: "#" },
+        { name: "Proyek PKL", url: "https://lanturkontraktor.page.gd/" },
     ],
     sideProjects: [
-        { name: "Formless", url: "#" },
-        { name: "Gridsnap", comingSoon: true },
-        { name: "OrbitPay Mobile App", comingSoon: true },
-        { name: "Siteflow Page Builder", comingSoon: true },
+        { name: "Toko Gamis Amiaisye", url: "https://amiaisye.vercel.app/home" },
+        { name: "Viralin Mimpi", comingSoon: true },
+        { name: "Rekber Anti Ribet", comingSoon: true },
     ]
 };
 
